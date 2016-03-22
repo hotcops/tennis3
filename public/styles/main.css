@@ -8,6 +8,8 @@
 body {
   padding: 0;
   font-family: 'Lato', sans-serif;
+  max-width: 1300px;
+
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -53,7 +55,7 @@ body {
 }
 
 .banner {
-  background-image: url("/images/tennisWallpaper.jpg");
+  background-image: url("../images/tennisWallpaper.jpg");
   width: 100%;
   color: white;
 }
@@ -72,9 +74,12 @@ ADDED ADJUSTMENTS
 
 .centered {
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.col-md-4 img{
+.col-sm-4 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -92,6 +97,50 @@ div h4 {
   color: #333;
 }
 
+.imgRounded {
+  border-radius: 6px;
+}
+
+.imgCircle {
+  border-radius: 50%;
+}
+
+.makeSmall {
+  max-height: 2.5em;
+}
+
+.row li {
+  width: 33.3%;
+  float: right;
+}
+
+.imgRow {
+  border: 0 none;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.line-separator{
+height:1px;
+background:#97a7a8;
+border-bottom:1px solid #97a7a8;
+}
+
+.row-level {
+  display: table;
+}
+
+.row-level .panel {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}
+
+/***********************************
+RESPONSIVE / MARKETING
+***********************************/
 
 /* Supporting marketing content */
 .marketing {
