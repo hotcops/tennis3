@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="Intensity Clinic Landing Pages">
   <meta name="author" content="Shane Pizzutello">
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet" type="text/css">
 
   <!-- CSS STYLESHEETS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -18,41 +19,97 @@
   <![endif]-->
 </head>
 
-<!-- MAIN PAGE -->
-
+<!-- BEGIN MAIN PAGE -->
 <body class="centered">
-  <!-- BEGIN VIEWS/MAIN.HTML -->
-
   <!-- Intensity Clinic Signup Banner -->
   <div class="container-fluid">
     <div class="jumbotron banner">
       <div class="lead">
         <img src="images/intensityLogo.png" alt="Intensity Logo" class="img-responsive">
-        <h1>Discovery Kids Clinic</h1>
+        <h1>2016 Indoor Fall Clinics</h1>
         <br>
-        Our 13-Week Fall Program Begins Soon!
+        Our Fall Programs Begin Soon!
       </div>
       <a class="btn btn-lg btn-success" data-toggle="modal" ng-href="#modalForm">Learn More! <span class="glyphicon glyphicon-hand-left"></span></a>
       <!-- <div ng-include="'views/signup.html'" ng-controller="MainCtrl"></div> -->
     </div>
+    <!-- END SIGNUP BANNER -->
 
-    <!-- BEGIN VIEWS/CLINICINFO.HTML -->
 
-    <!-- Clinic Info & Details -->
+
+    <!--  TENNIS WHIZZ -->
+    <div id="tennisWhizz">
+
+      <!-- Small Page -->
+      <div class="col-lg-6 col-lg-offset-3 centered hidden-lg" style="margin-bottom: 30px;">
+        <!-- Title -->
+        <div class="col-lg-6 col-lg-offset-3 centered">
+          <h1 style="margin-bottom:40px; color: #4894df;">Tennis Whizz (Ages 2-3)</h1>
+        </div>
+        <h3 class="centered" style="max-width: 300px; margin-bottom: 15px;">
+          Led by Joe Norton <img src="images/joeFace.png" class="pull-right imgCircle img-responsive hidden-lg makeSmall centered" style="margin-left: -60px; margin-top:-10px;">
+        </h3>
+      </div>
+
+      <!-- Large Page -->
+      <div class="col-lg-6 centered visible-lg">
+        <h1 style="margin-bottom:40px; color: #4894df;">Tennis Whizz (Ages 2-3)</h1>
+        <img src="images/joeFace.png" style="margin-bottom:150px;" class="pull-left imgCircle img-responsive">
+        <h3>Led by Joe Norton</h3>
+        <div style="text-align:left;">
+          <h4 style="margin-bottom:5px;">Tennis Whizz provides the perfect start to get your child ready for Junior Tennis and a lifetime of active fun. It is not specifically aimed at making your three year old into the next Grand Slam Champion.</h4>
+          <h4 style="margin-bottom:5px;">We focus on learning through play and developing active habits that help your child build the skills that they need for starting school. Every lesson includes key skills around literacy and numeracy, called Set4Schools such as letter sounds, numbers, rhyming, shapes &amp; colors.</h4>
+          <h4 style="margin-bottom:5px;">After class, the Set4School skills are repeated in a take home activity sheet and bedtime story. Children learn as they play, draw and listen. Tennis Whizz provides the perfect environment for pre-school learning.</h4>
+        </div>
+      </div>
+
+      <!-- Even 3 Column Layout -->
+      <div class="row-level marketing gray centered">
+        <div class="col-sm-4 centered">
+          <img src="../images/begincircle1.png" alt="Meet New People" class="img-responsive">
+          <h2 class="black">Meet New Friends</h2>
+          <h4>
+            Learn the game with other beginners. Find hitting partners, teammates and even new friends as you perfect your game!
+          </h4>
+        </div>
+        <div class="col-sm-4 centered">
+          <img src="../images/begincircle2.png" alt="Meet New People" class="img-responsive">
+          <h2 class="black">Learn From Our Fun Pros</h2>
+          <h4>
+          Our friendly instructors are here to teach you it all. With over 30 years of combined teaching experience, you'll learn the game in no time!
+          </h4>
+        </div>
+        <div class="col-sm-4 centered">
+          <img src="../images/begincircle3.png" alt="Meet New People" class="img-responsive">
+          <h2 class="black">Trophy Ceremony</h2>
+          <h4>
+            All participants are invited to a graduation ceremony and receive a trophy for successfully completing the program!
+          </h4>
+        </div>
+      </div>
+
+    </div>
+    <div class="line-separator"></div>
+    <hr>
+
+
+
+
+
+    <!-- HIGH PERFORMANCE -->
     <div class="col-lg-6 col-lg-offset-3 centered">
-      <h1 style="margin-bottom:40px;">Our Tennis Discovery Program</h1>
+      <h1 style="margin-bottom:40px; color: #26526d;">High Performance (Ages 10-18)</h1>
       <h3 class="centered" style="max-width: 300px; margin-bottom: 15px;">
         Led by Joe Norton <img src="images/joeFace.png" class="pull-right imgCircle img-responsive hidden-lg makeSmall centered" style="margin-left: -60px; margin-top:-10px;">
       </h3>
       <div>
         <img src="images/joeFace.png" style="margin-bottom:20px" class="pull-left imgCircle img-responsive visible-lg">
-        <h4 class="visible-lg" style="text-align: left;">
-          <p style="margin-bottom:5px;">Discovery is for the beginning tennis player to develop the important skills of hand-eye coordination and agility. The program introduces tennis vocabulary and the rules of the game. It is run in a fun and encouraging setting that develops social skills and promotes team spirit.
-          <p>The program uses 75% slower foam tennis balls that bounce at a level proportionate to a child’s height to allow better and longer rallies, encouraging the development of all-court games, racquet skills, physical awareness and confidence.</p>
+        <h4 class="visible-lg" style="text-align: center;">
+          <p style="margin-bottom:5px;">The most complete player development program offered in Fairfield County.</p>
+          <p style="margin-bottom:5px;">We offer three different levels for our juniors to develop their games to the highest level possible.</p>
         </h4>
       </div>
     </div>
-
     <!-- Even 3 Column Layout -->
     <div class="row-level marketing gray centered">
       <div class="col-sm-4 centered">
@@ -77,11 +134,59 @@
         </h4>
       </div>
     </div>
-
     <div class="line-separator"></div>
     <hr>
 
-    <!-- Page Bottom Signup Form -->
+
+
+
+    <!--  DISCOVERY KIDS -->
+    <div class="col-lg-6 col-lg-offset-3 centered">
+      <h1 style="margin-bottom:40px;">Our Tennis Discovery Program</h1>
+      <h3 class="centered" style="max-width: 300px; margin-bottom: 30px; text-align: center;">
+        <img src="images/joeFace.png" class="pull-right imgCircle img-responsive hidden-lg makeSmall centered" style="margin-left: -60px; margin-top:-10px;">
+      </h3>
+      <div>
+        <img src="images/joeFace.png" style="margin-bottom:20px" class="pull-left imgCircle img-responsive visible-lg">
+        <h4 class="visible-lg" style="text-align: center;">
+          <h3>Led by Joe Norton</h3>
+          <h4 style="margin-bottom:5px;">Discovery is for the beginning tennis player to develop the important skills of hand-eye coordination and agility. The program introduces tennis vocabulary and the rules of the game. It is run in a fun and encouraging setting that develops social skills and promotes team spirit.</h4>
+          <h4>The program uses 75% slower foam tennis balls that bounce at a level proportionate to a child’s height to allow better and longer rallies, encouraging the development of all-court games, racquet skills, physical awareness and confidence.</h4>
+        </h4>
+      </div>
+    </div>
+    <!-- Even 3 Column Layout -->
+    <div class="row-level marketing gray centered">
+      <div class="col-sm-4 centered">
+        <img src="../images/begincircle1.png" alt="Meet New People" class="img-responsive">
+        <h2 class="black">Meet New Friends</h2>
+        <h4>
+          Learn the game with other beginners. Find hitting partners, teammates and even new friends as you perfect your game!
+        </h4>
+      </div>
+      <div class="col-sm-4 centered">
+        <img src="../images/begincircle2.png" alt="Meet New People" class="img-responsive">
+        <h2 class="black">Learn From Our Fun Pros</h2>
+        <h4>
+        Our friendly instructors are here to teach you it all. With over 30 years of combined teaching experience, you'll learn the game in no time!
+        </h4>
+      </div>
+      <div class="col-sm-4 centered">
+        <img src="../images/begincircle3.png" alt="Meet New People" class="img-responsive">
+        <h2 class="black">Get Better Everyday</h2>
+        <h4>
+          Learn ground strokes, volleys, serves &amp; more in our 13-week,  clinics and begin your tennis journey today!
+        </h4>
+      </div>
+    </div>
+    <div class="line-separator"></div>
+    <hr>
+
+
+
+
+
+    <!-- PAGE BOTTOM SIGN UP FORM -->
     <!-- centered sign up for smaller screens -->
     <div class="col-lg-4 col-lg-offset-4 hidden-lg hidden-md">
       <h1>You've Got to Start Somewhere!</h1>
