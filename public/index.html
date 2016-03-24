@@ -9,6 +9,7 @@
 
   <!-- CSS STYLESHEETS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/> <!-- Slick Carousel Plugin -->
   <link rel="stylesheet" href="styles/main.css"/>
 
 
@@ -20,90 +21,96 @@
 <!-- MAIN PAGE -->
 
 <body class="centered">
-<!-- BEGIN VIEWS/MAIN.HTML -->
+  <!-- BEGIN VIEWS/MAIN.HTML -->
 
-<!-- Intensity Clinic Signup Banner -->
-<div class="container-fluid">
-  <div class="jumbotron banner">
-    <div class="lead">
-      <img src="images/intensityLogo.png" alt="Intensity Logo" class="img-responsive">
-      <h1>Discovery Kids Clinic</h1>
-      <br>
-      Our 13-Week Fall Program Begins Soon!
+  <!-- Intensity Clinic Signup Banner -->
+  <div class="container-fluid">
+    <div class="jumbotron banner">
+      <div class="lead">
+        <img src="images/intensityLogo.png" alt="Intensity Logo" class="img-responsive">
+        <h1>Discovery Kids Clinic</h1>
+        <br>
+        Our 13-Week Fall Program Begins Soon!
+      </div>
+      <a class="btn btn-lg btn-success" data-toggle="modal" ng-href="#modalForm">Learn More! <span class="glyphicon glyphicon-hand-left"></span></a>
+      <!-- <div ng-include="'views/signup.html'" ng-controller="MainCtrl"></div> -->
     </div>
-    <a class="btn btn-lg btn-success" data-toggle="modal" ng-href="#modalForm">Learn More! <span class="glyphicon glyphicon-hand-left"></span></a>
-    <!-- <div ng-include="'views/signup.html'" ng-controller="MainCtrl"></div> -->
-  </div>
 
-<!-- BEGIN VIEWS/CLINICINFO.HTML -->
+    <!-- BEGIN VIEWS/CLINICINFO.HTML -->
 
-<!-- Clinic Info & Details -->
-<div class="col-lg-6 col-lg-offset-3 centered">
-  <h1 style="margin-bottom:40px;">Our Tennis Discovery Program</h1>
-  <h3 class="centered" style="max-width: 300px; margin-bottom: 15px;">
-    Led by Joe Norton <img src="images/joeFace.png" class="pull-right imgCircle img-responsive hidden-lg makeSmall centered" style="margin-left: -60px; margin-top:-10px;">
-  </h3>
-  <div>
-    <img src="images/joeFace.png" style="margin-bottom:20px" class="pull-left imgCircle img-responsive visible-lg">
-    <h4 class="visible-lg" style="text-align: left;">
-      <p style="margin-bottom:5px;">Discovery is for the beginning tennis player to develop the important skills of hand-eye coordination and agility. The program introduces tennis vocabulary and the rules of the game. It is run in a fun and encouraging setting that develops social skills and promotes team spirit.
-      <p>The program uses 75% slower foam tennis balls that bounce at a level proportionate to a child’s height to allow better and longer rallies, encouraging the development of all-court games, racquet skills, physical awareness and confidence.</p>
-    </h4>
-  </div>
-</div>
+    <!-- Clinic Info & Details -->
+    <div class="col-lg-6 col-lg-offset-3 centered">
+      <h1 style="margin-bottom:40px;">Our Tennis Discovery Program</h1>
+      <h3 class="centered" style="max-width: 300px; margin-bottom: 15px;">
+        Led by Joe Norton <img src="images/joeFace.png" class="pull-right imgCircle img-responsive hidden-lg makeSmall centered" style="margin-left: -60px; margin-top:-10px;">
+      </h3>
+      <div>
+        <img src="images/joeFace.png" style="margin-bottom:20px" class="pull-left imgCircle img-responsive visible-lg">
+        <h4 class="visible-lg" style="text-align: left;">
+          <p style="margin-bottom:5px;">Discovery is for the beginning tennis player to develop the important skills of hand-eye coordination and agility. The program introduces tennis vocabulary and the rules of the game. It is run in a fun and encouraging setting that develops social skills and promotes team spirit.
+          <p>The program uses 75% slower foam tennis balls that bounce at a level proportionate to a child’s height to allow better and longer rallies, encouraging the development of all-court games, racquet skills, physical awareness and confidence.</p>
+        </h4>
+      </div>
+    </div>
 
-<!-- Even 3 Column Layout -->
-<div class="row-level marketing gray centered">
-  <div class="col-sm-4 centered">
-    <img src="../images/begincircle1.png" alt="Meet New People" class="img-responsive">
-    <h2 class="black">Meet New Friends</h2>
-    <h4>
-      Learn the game with other beginners. Find hitting partners, teammates and even new friends as you perfect your game!
-    </h4>
-  </div>
-  <div class="col-sm-4 centered">
-    <img src="../images/begincircle2.png" alt="Meet New People" class="img-responsive">
-    <h2 class="black">Learn From Our Fun Pros</h2>
-    <h4>
-    Our friendly instructors are here to teach you it all. With over 30 years of combined teaching experience, you'll learn the game in no time!
-    </h4>
-  </div>
-  <div class="col-sm-4 centered">
-    <img src="../images/begincircle3.png" alt="Meet New People" class="img-responsive">
-    <h2 class="black">Get Better Everyday</h2>
-    <h4>
-      Learn ground strokes, volleys, serves &amp; more in our 13-week,  clinics and begin your tennis journey today!
-    </h4>
-  </div>
-</div>
+    <!-- Even 3 Column Layout -->
+    <div class="row-level marketing gray centered">
+      <div class="col-sm-4 centered">
+        <img src="../images/begincircle1.png" alt="Meet New People" class="img-responsive">
+        <h2 class="black">Meet New Friends</h2>
+        <h4>
+          Learn the game with other beginners. Find hitting partners, teammates and even new friends as you perfect your game!
+        </h4>
+      </div>
+      <div class="col-sm-4 centered">
+        <img src="../images/begincircle2.png" alt="Meet New People" class="img-responsive">
+        <h2 class="black">Learn From Our Fun Pros</h2>
+        <h4>
+        Our friendly instructors are here to teach you it all. With over 30 years of combined teaching experience, you'll learn the game in no time!
+        </h4>
+      </div>
+      <div class="col-sm-4 centered">
+        <img src="../images/begincircle3.png" alt="Meet New People" class="img-responsive">
+        <h2 class="black">Get Better Everyday</h2>
+        <h4>
+          Learn ground strokes, volleys, serves &amp; more in our 13-week,  clinics and begin your tennis journey today!
+        </h4>
+      </div>
+    </div>
 
-<div class="line-separator"></div>
-<hr>
+    <div class="line-separator"></div>
+    <hr>
 
-<!-- Page Bottom Signup Form -->
-<!-- centered sign up for smaller screens -->
-<div class="col-lg-4 col-lg-offset-4 hidden-lg">
-  <h1>You've Got to Start Somewhere!</h1>
-  <h4>Give our Discovery clinic a shot and see how fun tennis can be. Get started today!</h4>
-  <a class="btn btn-lg btn-success" data-toggle="modal" ng-href="#modalForm">Learn More! <span class="glyphicon glyphicon-hand-left"></span></a>
-  <div ng-include="'views/signup.html'" ng-controller="MainCtrl"></div>
-  <h4>It's never too soon to start playing!</h4>
-</div>
+    <!-- Page Bottom Signup Form -->
+    <!-- centered sign up for smaller screens -->
+    <div class="col-lg-4 col-lg-offset-4 hidden-lg">
+      <h1>You've Got to Start Somewhere!</h1>
+      <h4>Give our Discovery clinic a shot and see how fun tennis can be. Get started today!</h4>
+      <a class="btn btn-lg btn-success" data-toggle="modal" ng-href="#modalForm">Learn More! <span class="glyphicon glyphicon-hand-left"></span></a>
+      <div ng-include="'views/signup.html'" ng-controller="MainCtrl"></div>
+      <h4>It's never too soon to start playing!</h4>
+    </div>
 
-<!-- expanded sign up for larger screens -->
-<div class="row-level visible-lg">
-  <div class="col-lg-4 col-lg-offset-4">
-    <h1>You've Got to Start Somewhere!</h1>
-    <h4>Give our Discovery clinic a shot and see how fun tennis can be. Get started today!</h4>
-    <a class="btn btn-lg btn-success" data-toggle="modal" ng-href="#modalForm">Learn More! <span class="glyphicon glyphicon-hand-left"></span></a>
-    <div ng-include="'views/signup.html'" ng-controller="MainCtrl"></div>
-    <h4>It's never too soon to start playing!</h4>
+    <!-- expanded sign up for larger screens -->
+    <div class="row-level visible-lg">
+      <div class="col-lg-4">
+        <h1>You've Got to Start Somewhere!</h1>
+        <h4>Give our Discovery clinic a shot and see how fun tennis can be. Get started today!</h4>
+        <a class="btn btn-lg btn-success" data-toggle="modal" ng-href="#modalForm">Learn More! <span class="glyphicon glyphicon-hand-left"></span></a>
+        <div ng-include="'views/signup.html'" ng-controller="MainCtrl"></div>
+        <h4>It's never too soon to start playing!</h4>
+      </div>
+      <!-- Image Slick-Carousel -->
+      <div class="col-lg-8 row-fluid" style="background: black;">
+        <div class="slideshow">
+          <div>your content</div>
+          <div>your content 2</div>
+          <div>your content 3</div>
+          <div>your content 4</div>
+        </div>
+      </div>
+    </div>
   </div>
-  <!-- Image Slick-Carousel -->
-  <div class="col-lg-8 row-fluid">
-  </div>
-</div>
-</div>
 
 <!-- FOOTER -->
     <div class="footer">
@@ -120,5 +127,15 @@
   <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.11/Rx.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> <!-- Slick Carousel Plugin -->
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slideshow').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false
+      });
+    });
+  </script>
 </body>
 </html>
