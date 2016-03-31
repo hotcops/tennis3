@@ -94,6 +94,10 @@ div h4 {
   margin-bottom: 20px;
 }
 
+div table {
+  margin: 0 auto;
+}
+
 .gray {
   color: #97a7a8;
 }
@@ -131,6 +135,7 @@ div h4 {
 height:1px;
 background:#97a7a8;
 border-bottom:1px solid #97a7a8;
+margin-top: 5px;
 }
 
 .row-level {
@@ -145,6 +150,10 @@ border-bottom:1px solid #97a7a8;
 
 .slideshow {
   margin-bottom: 30px;
+}
+
+h4 {
+  margin-bottom: 5px;
 }
 
 /***********************************
