@@ -72,6 +72,7 @@ ADDED ADJUSTMENTS
 ***********************************/
 .footer {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .centered {
@@ -179,7 +180,7 @@ RESPONSIVE / MARKETING
 
 @media screen and (max-width: 1199px) {
   body {
-    max-width: 1050px;
+    max-width: 1100px;
   }
 }
 
