@@ -74,6 +74,11 @@ CLINIC SPECIFIC
   margin-bottom: 20px;
 }
 
+.rallyKids {
+  color: #dc2c2e;
+  margin-bottom: 20px;
+}
+
 
 /***********************************
 ADDED ADJUSTMENTS
@@ -130,6 +135,10 @@ div table {
   max-height: 3.5em;
 }
 
+.largeFace {
+  margin: 20px auto 100px auto;
+}
+
 .row li {
   width: 33.3%;
   float: right;
@@ -147,7 +156,6 @@ div table {
 height:1px;
 background:#97a7a8;
 border-bottom:1px solid #97a7a8;
-margin-top: 5px;
 }
 
 .row-level {
