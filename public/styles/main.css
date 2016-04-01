@@ -111,6 +111,12 @@ div table {
   border-radius: 50%;
 }
 
+.infoBubble {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+}
+
 .makeSmall {
   max-height: 3.5em;
 }
