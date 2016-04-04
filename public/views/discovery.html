@@ -1,48 +1,60 @@
 <!--  DISCOVERY -->
 <div id="discovery" ng-controller="MainCtrl">
-  <!-- Program Description -->
 
-  <!-- Xtra-Small Screens -->
-  <div class="col-xs-12 hidden-sm hidden-md hidden-lg" style="margin-bottom: 30px;">
-    <!-- Title -->
-    <h1 class="discovery">Discovery <br> (Ages 4-5)</h1>
-    <div class="col-xs-12" style="margin-bottom:15px;">
+  <!-- Program Description -->
+  <div id="discoveryInfo">
+    <!-- Xtra-Small Screens -->
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg" style="margin-bottom: 30px;">
+      <!-- Title -->
+      <h1 class="discovery"><strong>Discovery</strong> <br> (Ages 4-5)</h1>
+      <div class="col-xs-12" style="margin-bottom:15px;">
+        <table>
+          <tr>
+            <td><h3>Led by Joe Norton</h3></td>
+            <td><img src="images/joeFace.png" class="imgCircle makeSmall" style="vertical-align:middle;"></td>
+          </tr>
+        </table>
+      </div>
+      <div style="text-align:justify;">
+        <div ng-include="'views/partials/_discovery.html'"></div>
+      </div>
+    </div>
+
+    <!-- Small/Medium Screens -->
+    <div class="col-xs-12 hidden-xs hidden-lg" style="margin-bottom: 30px;">
+      <!-- Title -->
+      <h1 class="discovery"><strong>Discovery</strong> (Ages 4-5)</h1>
+      <div class="col-xs-4" style="margin-bottom:15px;">
+        <table style="margin-top:20px;">
+          <tr>
+            <td><h3>Led by <br> Joe Norton</h3></td>
+            <td><img src="images/joeFace.png" class="imgCircle" style="vertical-align:middle; max-height:75%;"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-xs-8" style="text-align:justify; vertical-align:middle;">
+        <div ng-include="'views/partials/_discovery.html'"></div>
+      </div>
+    </div>
+
+    <!-- Large Screens -->
+    <div class="col-lg-6 visible-lg">
       <table>
         <tr>
-          <td><h3>Led by Joe Norton</h3></td>
-          <td><img src="images/joeFace.png" class="imgCircle makeSmall" style="vertical-align:middle;"></td>
+          <th colspan="3"><h1 class="discovery centered" style="margin-bottom:20px;">
+            <span class="line"><strong>Discovery</strong></span><span class="line"> &nbsp; (Ages 4-5)</span></h1>
+          </th>
         </tr>
-      </table>
-    </div>
-    <div style="text-align:center;">
-      <div ng-include="'views/partials/_discovery.html'"></div>
-    </div>
-  </div>
-
-  <!-- Small/Medium Screens -->
-  <div class="col-xs-12 hidden-xs hidden-lg" style="margin-bottom: 30px;">
-    <!-- Title -->
-    <h1 class="discovery">Discovery (Ages 4-5)</h1>
-    <div class="col-xs-4" style="margin-bottom:15px;">
-      <table style="margin-top:20px;">
         <tr>
-          <td><h3>Led by <br> Joe Norton</h3></td>
-          <td><img src="images/joeFace.png" class="imgCircle" style="vertical-align:middle; max-height:75%;"></td>
+          <td colspan="2"><img src="images/joeFace.png" class="imgCircle largeFace"></td>
+          <td>
+            <h3 class="centered">Led by Joe Norton</h3>
+            <div style="text-align:justify;">
+              <div ng-include="'views/partials/_discovery.html'"></div>
+            </div>
+          </td>
         </tr>
       </table>
-    </div>
-    <div class="col-xs-8" style="text-align:center; vertical-align:middle;">
-      <div ng-include="'views/partials/_discovery.html'"></div>
-    </div>
-  </div>
-
-  <!-- Large Screens -->
-  <div class="col-lg-6 visible-lg">
-    <h1 class="discovery" style="margin-bottom:20px;">Discovery (Ages 4-5)</h1>
-    <img src="images/joeFace.png" class="pull-left largeFace imgCircle img-responsive">
-    <h3>Led by Joe Norton</h3>
-    <div style="text-align:left;">
-      <div ng-include="'views/partials/_discovery.html'"></div>
     </div>
   </div>
 
@@ -70,8 +82,6 @@
       </h4>
     </div>
   </div>
+  <hr class="col-xs-12 lineFade">
 </div>
-
-<div class="col-xs-12 line-separator"></div>
-<hr>
 <!-- END DISCOVERY -->

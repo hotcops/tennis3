@@ -67,21 +67,31 @@ CLINIC SPECIFIC
 .tennisWhizz {
   color: #4894df;
   margin-bottom: 20px;
+  position: sticky;
 }
 
 .discovery {
   color: #e315c2;
   margin-bottom: 20px;
+  position: sticky;
 }
 
 .rallyKids {
   color: #dc2c2e;
   margin-bottom: 20px;
+  position: sticky;
 }
 
 .jd1 {
   color: #f38637;
   margin-bottom: 20px;
+  position: sticky;
+}
+
+.jd2 {
+  color: #59ab2d;
+  margin-bottom: 20px;
+  position: sticky;
 }
 
 /***********************************
@@ -140,7 +150,7 @@ div table {
 }
 
 .largeFace {
-  margin: 20px auto 100px auto;
+  min-width: 180px;
 }
 
 .row li {
@@ -179,6 +189,31 @@ border-bottom:1px solid #97a7a8;
 h4 {
   margin-bottom: 5px;
 }
+
+/* Horizontal Line outward gradient fade from center */
+hr.lineFade {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+.line {
+  display: inline-block;
+}
+
+/* OUTLINES TABLE CELLS AND BORDER
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+*/
 
 /***********************************
 RESPONSIVE / MARKETING

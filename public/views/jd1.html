@@ -1,48 +1,60 @@
 <!-- JUNIOR DEVELOPMENT 1 -->
 <div id="jd1" ng-controller="MainCtrl">
-  <!-- Program Description -->
 
-  <!-- Xtra-Small Screens -->
-  <div class="col-xs-12 hidden-sm hidden-md hidden-lg" style="margin-bottom: 30px;">
-    <!-- Title -->
-    <h1 class="jd1">Junior Development 1 <br> (Ages 9-10)</h1>
-    <div class="col-xs-12" style="margin-bottom:15px;">
+  <!-- Program Description -->
+  <div id="jd1Info">
+    <!-- Xtra-Small Screens -->
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg" style="margin-bottom: 30px;">
+      <!-- Title -->
+      <h1 class="jd1"><strong>Junior Development 1</strong> <br> (Ages 9-10)</h1>
+      <div class="col-xs-12" style="margin-bottom:15px;">
+        <table>
+          <tr>
+            <td><h3>Led by Kendra Becker</h3></td>
+            <td><img src="images/kendraFace.png" class="imgCircle makeSmall" style="vertical-align:middle;"></td>
+          </tr>
+        </table>
+      </div>
+      <div style="text-align:justify;">
+        <div ng-include="'views/partials/_jd1.html'"></div>
+      </div>
+    </div>
+
+    <!-- Small/Medium Screens -->
+    <div class="col-xs-12 hidden-xs hidden-lg" style="margin-bottom: 30px;">
+      <!-- Title -->
+      <h1 class="jd1"><strong>Junior Development 1</strong> (Ages 9-10)</h1>
+      <div class="col-xs-4" style="margin-bottom:15px;">
+        <table style="margin-top:20px;">
+          <tr>
+            <td><h3>Led by <br> Kendra Becker</h3></td>
+            <td><img src="images/kendraFace.png" class="imgCircle" style="vertical-align:middle; max-height:75%;"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-xs-8" style="text-align:justify; vertical-align:middle;">
+        <div ng-include="'views/partials/_jd1.html'"></div>
+      </div>
+    </div>
+
+    <!-- Large Screens -->
+    <div class="col-lg-6 visible-lg">
       <table>
         <tr>
-          <td><h3>Led by Kendra Becker</h3></td>
-          <td><img src="images/kendraFace.png" class="imgCircle makeSmall" style="vertical-align:middle;"></td>
+          <th colspan="3"><h1 class="jd1 centered" style="margin-bottom:20px;">
+            <span class="line"><strong>Junior Development 1</strong></span><span class="line"> &nbsp; (Ages 9-10)</span></h1>
+          </th>
         </tr>
-      </table>
-    </div>
-    <div style="text-align:center;">
-      <div ng-include="'views/partials/_jd1.html'"></div>
-    </div>
-  </div>
-
-  <!-- Small/Medium Screens -->
-  <div class="col-xs-12 hidden-xs hidden-lg" style="margin-bottom: 30px;">
-    <!-- Title -->
-    <h1 class="jd1">Junior Development 1 (Ages 9-10)</h1>
-    <div class="col-xs-4" style="margin-bottom:15px;">
-      <table style="margin-top:20px;">
         <tr>
-          <td><h3>Led by <br> Kendra Becker</h3></td>
-          <td><img src="images/kendraFace.png" class="imgCircle" style="vertical-align:middle; max-height:75%;"></td>
+          <td colspan="2"><img src="images/kendraFace.png" class="imgCircle largeFace"></td>
+          <td>
+            <h3 class="centered">Led by Kendra Becker</h3>
+            <div style="text-align:justify;">
+              <div ng-include="'views/partials/_jd1.html'"></div>
+            </div>
+          </td>
         </tr>
       </table>
-    </div>
-    <div class="col-xs-8" style="text-align:center; vertical-align:middle;">
-      <div ng-include="'views/partials/_jd1.html'"></div>
-    </div>
-  </div>
-
-  <!-- Large Screens -->
-  <div class="col-lg-6 visible-lg">
-    <h1 class="jd1" style="margin-bottom:20px;">Junior Development 1 (Ages 9-10)</h1>
-    <img src="images/kendraFace.png" class="pull-left largeFace imgCircle img-responsive">
-    <h3>Led by Kendra Becker</h3>
-    <div style="text-align:left;">
-      <div ng-include="'views/partials/_jd1.html'"></div>
     </div>
   </div>
 
@@ -70,8 +82,6 @@
       </h4>
     </div>
   </div>
+  <hr class="col-xs-12 lineFade">
 </div>
-
-<hr>
-<div class="col-xs-12 line-separator"></div>
 <!-- END JUNIOR DEVELOPMENT 1 -->
