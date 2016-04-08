@@ -1,0 +1,87 @@
+ <!-- HIGH PERFORMANCE -->
+<div id="hp" ng-controller="MainCtrl">
+
+  <!-- Program Description -->
+  <div id="hpInfo">
+    <!-- Xtra-Small Screens -->
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg" style="margin-bottom: 30px;">
+      <!-- Title -->
+      <h1 class="hp"><strong>High Performance</strong><br> (Ages 10-18)</h1>
+      <div class="col-xs-12" style="margin-bottom:15px;">
+        <table>
+          <tr>
+            <td><h3>Led by Ryan Ginley</h3></td>
+            <td><img src="images/ryanFace.png" class="imgCircle makeSmall" style="vertical-align:middle;"></td>
+          </tr>
+        </table>
+      </div>
+      <div style="text-align:justify;">
+        <div ng-include="'views/partials/_hp.html'"></div>
+      </div>
+    </div>
+
+    <!-- Small/Medium Screens -->
+    <div class="col-xs-12 hidden-xs hidden-lg" style="margin-bottom: 30px;">
+      <!-- Title -->
+      <h1 class="hp"><strong>High Performance</strong> (Ages 10-18)</h1>
+      <div class="col-xs-4" style="margin-bottom:15px;">
+        <table style="margin-top:20px;">
+          <tr>
+            <td><h3>Led by <br> Ryan Ginley</h3></td>
+            <td><img src="images/ryanFace.png" class="imgCircle" style="vertical-align:middle; max-height:75%;"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-xs-8" style="text-align:justify; vertical-align:middle;">
+        <div ng-include="'views/partials/_hp.html'"></div>
+      </div>
+    </div>
+
+    <!-- Large Screens -->
+    <div class="col-lg-6 visible-lg">
+      <table>
+        <tr>
+          <th colspan="3"><h1 class="hp centered" style="margin-bottom:20px;">
+            <span class="line"><strong>High Performance</strong></span><span class="line"> &nbsp; (Ages 10-18)</span></h1>
+          </th>
+        </tr>
+        <tr>
+          <td colspan="2"><img src="images/ryanFace.png" class="imgCircle largeFace"></td>
+          <td>
+            <h3 class="centered">Led by Ryan Ginley</h3>
+            <div style="text-align:justify;">
+              <div ng-include="'views/partials/_hp.html'"></div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Info Bubbles -->
+  <div class="row-level gray centered">
+    <div class="col-sm-4">
+      <img src="../images/hp1.png" alt="Train With The Best" class="infoBubble">
+      <h2 class="black">Train With The Best</h2>
+      <h4>
+        Take your game to the next level. Train with the best coaches in the nation and use clinic time to practice in hopes of competing in USTA tournaments both regionally and nationally
+      </h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="../images/hp2.png" alt="Focus In" class="infoBubble">
+      <h2 class="black">Focus In</h2>
+      <h4>
+        13-week clinics will work on all aspects of the game geared towards helping you compete at the highest level.
+      </h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="../images/hp3.png" alt="All Angles" class="infoBubble">
+      <h2 class="black">All Angles</h2>
+      <h4>
+        Develop your skills both on &amp; off the court. Train with personal trainers to gain a physical advantage when competing in matches and learn how to overcome the game's mental challenges with our certified sport psychologist.
+      </h4>
+    </div>
+  </div>
+  <hr class="col-xs-12 lineFade">
+</div>
+<!-- END HIGH PERFORMANCE -->

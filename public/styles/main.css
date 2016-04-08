@@ -94,9 +94,25 @@ CLINIC SPECIFIC
   position: sticky;
 }
 
+.vq {
+  color: #7e58bb;
+  margin-bottom: 20px;
+  position: sticky;
+}
+
+.hp {
+  color: #27536e;
+margin-bottom: 20px;
+position: sticky;
+}
+
 /***********************************
 ADDED ADJUSTMENTS
 ***********************************/
+span.glyphicon {
+  margin-top: -10px;
+}
+
 .footer {
   text-align: center;
   margin-bottom: 10px;
@@ -150,7 +166,8 @@ div table {
 }
 
 .largeFace {
-  min-width: 180px;
+  width: 180px;
+  margin-right: 8px;
 }
 
 .row li {

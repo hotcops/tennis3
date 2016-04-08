@@ -1,0 +1,87 @@
+<!-- VARSITY QUEST -->
+<div id="vq" ng-controller="MainCtrl">
+
+  <!-- Program Description -->
+  <div id="vqInfo">
+    <!-- Xtra-Small Screens -->
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg" style="margin-bottom: 30px;">
+      <!-- Title -->
+      <h1 class="vq"><strong>Varsity Quest</strong><br> (Ages 12-17)</h1>
+      <div class="col-xs-12" style="margin-bottom:15px;">
+        <table>
+          <tr>
+            <td><h3>Led by Nancy Lally</h3></td>
+            <td><img src="images/nancyFace.png" class="imgCircle makeSmall" style="vertical-align:middle;"></td>
+          </tr>
+        </table>
+      </div>
+      <div style="text-align:justify;">
+        <div ng-include="'views/partials/_vq.html'"></div>
+      </div>
+    </div>
+
+    <!-- Small/Medium Screens -->
+    <div class="col-xs-12 hidden-xs hidden-lg" style="margin-bottom: 30px;">
+      <!-- Title -->
+      <h1 class="vq"><strong>Varsity Quest</strong> (Ages 12-17)</h1>
+      <div class="col-xs-4" style="margin-bottom:15px;">
+        <table style="margin-top:20px;">
+          <tr>
+            <td><h3>Led by <br> Nancy Lally</h3></td>
+            <td><img src="images/nancyFace.png" class="imgCircle" style="vertical-align:middle; max-height:75%;"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-xs-8" style="text-align:justify; vertical-align:middle;">
+        <div ng-include="'views/partials/_vq.html'"></div>
+      </div>
+    </div>
+
+    <!-- Large Screens -->
+    <div class="col-lg-6 visible-lg">
+      <table>
+        <tr>
+          <th colspan="3"><h1 class="vq centered" style="margin-bottom:20px;">
+            <span class="line"><strong>Varsity Quest</strong></span><span class="line"> &nbsp; (Ages 12-17)</span></h1>
+          </th>
+        </tr>
+        <tr>
+          <td colspan="2"><img src="images/nancyFace2.png" class="imgCircle largeFace"></td>
+          <td>
+            <h3 class="centered">Led by Nancy Lally</h3>
+            <div style="text-align:justify;">
+              <div ng-include="'views/partials/_vq.html'"></div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Info Bubbles -->
+  <div class="row-level gray centered">
+    <div class="col-sm-4">
+      <img src="../images/vq1.png" alt="Work Hard" class="infoBubble">
+      <h2 class="black">Work Hard</h2>
+      <h4>
+        Work on your game, improve your strokes and learn to play competitively on a team.
+      </h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="../images/vq2.png" alt="Make The Team" class="infoBubble">
+      <h2 class="black">Make The Team</h2>
+      <h4>
+        Progress through clinics and and challenge for a spot on your high school JV or Varsity tennis team!
+      </h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="../images/vq3.png" alt="Meet Future Teammates" class="infoBubble">
+      <h2 class="black">Have Fun</h2>
+      <h4>
+        Meet new friends, tennis partners and have fun while doing it!
+      </h4>
+    </div>
+  </div>
+  <hr class="col-xs-12 lineFade">
+</div>
+<!-- END VARSITY QUEST -->
