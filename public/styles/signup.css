@@ -34,7 +34,14 @@ a:hover {
   color: #333333;
   text-decoration: none;
 }
-
+/*=== 3. Text Outside the Box ===*/
+.etc-login-form {
+  color: #919191;
+  padding: 10px 20px;
+}
+.etc-login-form p {
+  margin-bottom: 5px;
+}
 /*=== 4. Main Form ===*/
 .login-form-1 {
   max-width: 300px;
@@ -77,7 +84,9 @@ a:hover {
   border-radius: 8px;
   padding: 10px 20px;
 }
-
+.login-group-checkbox {
+  padding: 5px 0;
+}
 /*=== 5. Login Button ===*/
 .login-form-1 .login-button {
   position: absolute;
