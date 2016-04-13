@@ -221,6 +221,14 @@ hr.lineFade {
   display: inline-block;
 }
 
+/* The below have to do with the signup form */
+
+textarea {
+  resize: none;
+  border-radius: 6px;
+  border-color: #97a7a8;
+}
+
 .success {
   padding: 1em;
   margin-bottom: 0.75rem;
@@ -243,6 +251,11 @@ hr.lineFade {
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
+}
+
+.field {
+  margin: 1em 0;
+  border-radius: 6px;
 }
 
 
